@@ -8,6 +8,8 @@ export const Container = styled.div`
   background-color: ${(props) => props.theme.background};
   display: flex;
 
+  font-family: 'Source Sans Pro', sans-serif;
+
   @media (max-width: 768px) {
     flex-direction: column;
   }
