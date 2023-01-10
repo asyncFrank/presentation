@@ -17,17 +17,17 @@ export default function Home() {
         <p>- Baixo custo produtivo;</p>
         <p>- Alta margem;</p>
         <p>- Fábrica perto das fontes de MP e dos clientes;</p>
-        <p>- Tecnologias excluisivas associadas ao fertilizante.</p>
+        <p>- Tecnologias exclusivas associadas ao fertilizante.</p>
 
         <Button>
           <ButtonBox><BsFillPinFill /></ButtonBox>
           Oportunidades</Button>
-        <p>- Biológicos, novas fronteiras do mercado;
+        <p>- Biológicos: novas fronteiras do mercado;
         </p>
         <p>- Clientes procuram alternativa para altos preços dos fertilizantes;</p>
         <p>- Podemos ser a solução para os passivos da indústria brasileira de proteína animal;</p>
         <p>- Geração de crédito de carbono com o uso do fertilizante, pagando o seu custo;</p>
-        <p>- ???? a empresa na lei do BEM.</p>
+        <p>- Encaixar a empresa na lei do BEM.</p>
 
         <Button>
           <ButtonBox><BsFillPinFill /></ButtonBox>

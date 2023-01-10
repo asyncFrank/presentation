@@ -6,7 +6,7 @@ import {
   LinearScale,
   PointElement,
 } from "chart.js";
-
+import '../../styles.css'
 ChartJs.register(LineElement, CategoryScale, LinearScale, PointElement);
 
 export default function Grafico() {
