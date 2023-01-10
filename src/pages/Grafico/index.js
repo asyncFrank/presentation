@@ -67,7 +67,8 @@ export default function Grafico() {
 
   return (
     <div style={{ width: "980px", height: "980px", margin: "4rem 0 0 4rem" }}>
-      <h1 style={{display:"flex",alignContent:"center",alignItems:"center",fontWeight:"bold", fontSize:"1.3rem",margin:"1.5rem 0 1.5rem 3rem"}}> <span> Matriz de Avaliação de Valor</span></h1>
+      <h1 style={{display:"flex",alignContent:"center",alignItems:"center",
+      fontFamily:"Source Sans Pro, sans-serif", fontWeight:"bold", fontSize:"1.3rem",margin:"1.5rem 0 1.5rem 3rem"}}> <span> Matriz de Avaliação de Valor</span></h1>
       <Line data={data} options={options} style={{marginBottom:"2rem"}}></Line>
       <h2>
         <span style={{ background: "#1C74E9", marginRight: "8px" }}>
@@ -75,13 +76,13 @@ export default function Grafico() {
         </span>
         TCP
       </h2>
-      <h2>
+      <h2 style={{fontFamily:"Source Sans Pro, sans-serif"}}>
         <span style={{ background: "#0FAE3A", marginRight: "8px" }}>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
         Fonte Mineral
       </h2>
-      <h2>
+      <h2 style={{fontFamily:"Source Sans Pro, sans-serif"}}>
         <span style={{ background: "#f26c6d", marginRight: "8px" }}>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </span>
