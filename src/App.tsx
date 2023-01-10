@@ -4,7 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/Home'
 import New from './pages/New';
-import Grafico from './pages/Grafico';
+import Grafico from './pages/Grafico/index';
 import Processos from './pages/Processos';
 import Matriz from './pages/Matriz';
 function App() {
